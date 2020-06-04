@@ -103,9 +103,33 @@ colors {
 }
 
 .tab {
-  float: left;
+  float: right;
   background:none;
-  width: 10%;
+  width: 100%;
+  border: 1px solid cadetblue;
+
+}
+
+.tab button {
+  display: block;
+  /*background-color: rgb(116, 113, 108);*/
+  background: none;
+  color: rgb(119, 118, 112);
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: 5px;
+  margin-left: 50px;
+  width: 230px;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  color: white;
 }
 
 .left-container {
