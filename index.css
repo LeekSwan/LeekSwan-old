@@ -104,8 +104,8 @@ colors {
 
 .tab {
   float: right;
+  margin-left: 1000px;
   background:none;
-  width: 100%;
   border: 1px solid cadetblue;
 
 }

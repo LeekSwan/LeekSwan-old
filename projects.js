@@ -6,7 +6,7 @@ export const renderCard = function(project) {
             <div class="card" >
                 <img class="card-img-top" src="${project.image}" alt="Card image cap" style="width: 100%;">
                     <div class="card-body">
-                        <h5 class="card-title">${project.name}</h5>
+                        <h5 class="card-title">${project.title}</h5>
                         <p class="card-text">${project.description}</p>
                         <p class="card-text"><small class="text-muted">${project.tech}</small></p>           
                     </div>
