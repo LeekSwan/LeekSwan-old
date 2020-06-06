@@ -1,25 +1,25 @@
 
-export const renderSite = function() {
+export const renderSite = function(experience) {
     const $root = $('#tabs');
     $('#exp1').css('color', 'white');
-    getExp1();
+    getExp1(experience);
+
 
     $(document).on('click', '#exp1',  function(e){
         e.preventDefault(); 
-        getExp1(); 
+        getExp1(experience); 
         revertColors();
         $('exp1').css('color', 'white');
     });
     $(document).on('click', '#exp2',  function(e){
-
         e.preventDefault(); 
-        getExp2(); 
+        getExp2(experience); 
         revertColors();
         $('#exp2').css('color', 'white');
     });
     $(document).on('click', '#exp3',  function(e){
         e.preventDefault(); 
-        getExp3(); 
+        getExp3(experience); 
         revertColors();
         $('#exp3').css('color', 'white');
     });
@@ -27,19 +27,19 @@ export const renderSite = function() {
 }
  
 $(function () {
-    renderSite(); 
+    renderSite(experienceData); 
 }); 
 
 
 function getExp1(experience) {
     const $root = $('#tabs');
-
+    var obj = $.grep(experience, function(obj){return obj.id === 1;})[0];
     let screen = document.createElement('section');
     screen.innerHTML = `
         <div id = "tabs">
-            <h5 class="card-title">${experience.title}</h5>
-            <p class="card-text">${experience.description}</p>
-            <p class="card-text"><small class="text-muted">${experience.tech}</small></p>
+            <h5 class="card-title">${obj.title}</h5>
+            <p class="card-text">${obj.description}</p>
+            <p class="card-text"><small class="text-muted">${obj.tech}</small></p>
   
         </div>
     `
