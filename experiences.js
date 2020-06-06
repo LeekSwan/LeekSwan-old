@@ -9,7 +9,7 @@ export const renderSite = function(experience) {
         e.preventDefault(); 
         getExp1(experience); 
         revertColors();
-        $('exp1').css('color', 'white');
+        $('#exp1').css('color', 'white');
     });
     $(document).on('click', '#exp2',  function(e){
         e.preventDefault(); 
@@ -46,21 +46,32 @@ function getExp1(experience) {
     $root.replaceWith(screen); 
 }
 
-function getExp2() {
+function getExp2(experience) {
     const $root = $('#tabs');
-
+    var obj = $.grep(experience, function(obj){return obj.id === 2;})[0];
     let screen = document.createElement('section');
     screen.innerHTML = `
-        <div id = "tabs">test2</div>
+        <div id = "tabs">
+            <h5 class="card-title">${obj.title}</h5>
+            <p class="card-text">${obj.description}</p>
+            <p class="card-text"><small class="text-muted">${obj.tech}</small></p>
+  
+        </div>
     `
     $root.replaceWith(screen); 
 }
 
-function getExp3() {
+function getExp3(experience) {
     const $root = $('#tabs');
-
-    let screen = `
-        <div id = "tabs">test3</div>
+    var obj = $.grep(experience, function(obj){return obj.id === 3;})[0];
+    let screen = document.createElement('section');
+    screen.innerHTML = `
+        <div id = "tabs">
+            <h5 class="card-title">${obj.title}</h5>
+            <p class="card-text">${obj.description}</p>
+            <p class="card-text"><small class="text-muted">${obj.tech}</small></p>
+  
+        </div>
     `
     $root.replaceWith(screen); 
 }
