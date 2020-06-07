@@ -9,13 +9,14 @@
     <meta charset="UFT-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="buttons.css".css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="http://allfont.net/allfont.css?fonts=league-spartan" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href = "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">     -->
     <title>Web Portfolio</title>
 
 </head>
@@ -28,37 +29,35 @@
         <!-- <div class="header"> -->
         <div class="container-fluid">
             
-            <!-- <header class = "container-sm" style = "max-width:1250px"> -->
-            <header class = "container-fluid">
-                <nav class="navbar navbar-expand-lg ">
-                    <p class="p-3 px-md-4 mb-3 btn-font"> Logo here </p>
-                    <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
-                        <div class="d-flex flex-column flex-md-row p-3 px-md-4 mb-3">
-                            <a class="nav-item nav-link p-2 mr-5 btn-font" href="#About">About</a>
-                            <a class="nav-item nav-link p-2 mr-5 btn-font" href="#Experience">Experience</a>
-                            <a class="nav-item nav-link p-2 mr-5 btn-font" href="#Projects">Projects</a>
-                            <a class="nav-item nav-link p-2 mr-5 btn-font" href="#contact">Contact Me</a>
-                            <button class="btn btn-outline-light " style="border: 1px solid #3D9EC8;">Resume</button>
-                        </div>
-                    </div>
-                </nav>
-            </header>
+            <section class="navigation">
+                <div class="brand"><a href="#!">Logo</a></div>
+                <div class="nav-container">
+                    <nav>
+                        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                            <ul class="nav-list">
+                                <li><a href="#About">About Me</a></li>
+                                <li><a href="#Experience">Experience</a></li>
+                                <li><a href="#Projects">Projects</a></li>
+                                <li><a href="#contact">Contact Me!</a></li>
+                                <li><a href="#!" style="border: 1px solid #3D9EC8;">Resume</a></li>
+                            </ul>
+                    </nav>
+                </div>
+            </section>
+
+
             <div class = "container">
                 <div class = "section-head">
 
                     <div class = "center-container horizontal-center" style = "text-align:center ">
                         <h1 class = "title">Hello! I'm Lixuan Xia.</h1>
-                        
+
                         <h5 class = "subtitle">An aspiring software developer passionate for all things software. </h5>
 
                     </div>
 
                     <!-- <div class = "right-container" style = "">
-                
+
                         <img class = "profile-pic" src = "https://i.imgur.com/b9TSbrn.png">
 
 
@@ -72,25 +71,25 @@
         </div>
 
 
-        <div class = "container" id = "About"> 
+        <div class = "container" id = "About">
             <div class="section-container vertical-center">
                 <div class = "row">
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                        <h6 class="paragraphs"> 
+                        <h6 class="paragraphs">
                             Probaly put a picture here.
-                           
+
                         </h6>
                     </div>
 
 
                     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style = "">
                         <h class = "heading-font"> About me </h>
-                        <p class="paragraphs">I'm a recent graduate of UNC Chapel Hill with a Bachelors in Physics and Astronomy, along with a 
-                            minor in Business and Computer Science. 
+                        <p class="paragraphs">I'm a recent graduate of UNC Chapel Hill with a Bachelors in Physics and Astronomy, along with a
+                            minor in Business and Computer Science.
                         </p>
 
-                        <p class="paragraphs">I enjoy working on all sorts of projects from websites to application and everything in between. 
-                            My goal is to explore every tech stack under the sun and one day become a full stack developer. 
+                        <p class="paragraphs">I enjoy working on all sorts of projects from websites to application and everything in between.
+                            My goal is to explore every tech stack under the sun and one day become a full stack developer.
                         </p>
 
                         <p class="paragraphs">
@@ -98,7 +97,7 @@
                         </p>
                     </div>
 
-                    
+
                 </div>
               </div>
         </div>
@@ -106,17 +105,17 @@
 
 
         <div class="container" id = "Experience">
-            
+
             <div class="section-container vertical-center">
                 <h class = "heading-font" style="float: left; margin-bottom: 30%;"> Experience </h>
                 <div class="left-container" >
-                    
+
                     <div class="tab paragraphs">
-                        
+
                         <button class="tablinks" id="exp1">Cisco Systems<span style="font-size:15px; color:rgb(110, 97, 97)"></span></button>
                         <button class="tablinks" id="exp2">UNC BRIC<span style="font-size:15px; color:rgb(110, 97, 97)"></span></button>
                         <button class="tablinks" id="exp3">Market America<span style="font-size:15px; color:rgb(110, 97, 97)"></span></button>
-        
+
                     </div>
                 </div>
                 <!-- <div class="right-container paragraphs" style="border: 1px solid aqua"> -->
@@ -145,7 +144,7 @@
                             <div class = "card-deck">
                                 <div id="root"></div>
                             </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -154,7 +153,7 @@
         <div class = "footer-container" id="contact">
             <div class = "center-container horizontal-center" style = "text-align:center ">
                 <h class = "heading-font" style="">Get in touch!</h>
-  
+
                 <div class="flex-center" style="margin-top: 5%;">
                     <a href="https://github.com/LeekSwan" target="_icon1" class="icon1" title="Take a look at my projects!">
                         <i class="fa fa-github fa-4x fa-fw color:#E7E7E7;"></i>
@@ -166,14 +165,14 @@
                         <i class="fa fa-envelope fa-4x fa-fw"></i>
                     </a>
                   </div>
-                  
-                
+
+
 
             </div>
 
 
-            
-            
+
+
         </div>
         <h6 class = "designed paragraphs"> Designed and built by Lixuan Xia</h6>
     </section>
@@ -193,13 +192,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="node_modules/axios/dist/axios.min.js"></script>
     <script src="projects_data.js"></script>
     <script src="projects.js" type="module"></script>
     <script src="experiences_data.js"></script>
     <script src="experiences.js" type="module"></script>
+    <script src="icons.js" type="module"></script>
     <script src="buttons.js" type="module"></script>
+
 
 
 </body>
