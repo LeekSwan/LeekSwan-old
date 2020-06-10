@@ -1,4 +1,3 @@
-
 export const renderSite = function(experience) {
     const $root = $('#tabs');
     $('#exp1').css('color', 'white');
@@ -85,5 +84,3 @@ export function revertColors(){
   $('#exp4').css('color', 'rgb(119, 118, 112)');
   $('#exp5').css('color', 'rgb(119, 118, 112)');
 }
-
-

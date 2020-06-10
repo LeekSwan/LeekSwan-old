@@ -1,6 +1,6 @@
 const experienceData = [{
     id: 1,
-    title: "fMRI",
+    title: "fMRI processing using python",
     subtitle: "",
     color: "#931815",
     backgroundColor: "#f39c11",
