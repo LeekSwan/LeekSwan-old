@@ -36,9 +36,8 @@ function getExp1(experience) {
     let screen = document.createElement('section');
     screen.innerHTML = `
         <div id = "tabs">
-            <h5 class="card-title">${obj.title}</h5>
-            <p class="card-text">${obj.description}</p>
-            <p class="card-text"><small class="text-muted">${obj.tech}</small></p>
+            <h5 class="card-title paragraphs">${obj.title}</h5>
+            <p class="card-text card-font">${obj.description}</p>
   
         </div>
     `
@@ -51,9 +50,8 @@ function getExp2(experience) {
     let screen = document.createElement('section');
     screen.innerHTML = `
         <div id = "tabs">
-            <h5 class="card-title">${obj.title}</h5>
-            <p class="card-text">${obj.description}</p>
-            <p class="card-text"><small class="text-muted">${obj.tech}</small></p>
+        <h5 class="card-title paragraphs">${obj.title}</h5>
+        <p class="card-text card-font">${obj.description}</p>
   
         </div>
     `
@@ -66,9 +64,8 @@ function getExp3(experience) {
     let screen = document.createElement('section');
     screen.innerHTML = `
         <div id = "tabs">
-            <h5 class="card-title">${obj.title}</h5>
-            <p class="card-text">${obj.description}</p>
-            <p class="card-text"><small class="text-muted">${obj.tech}</small></p>
+        <h5 class="card-title paragraphs">${obj.title}</h5>
+        <p class="card-text card-font">${obj.description}</p>
   
         </div>
     `
@@ -81,6 +78,4 @@ export function revertColors(){
   $('#exp1').css('color', 'rgb(119, 118, 112)');
   $('#exp2').css('color', 'rgb(119, 118, 112)');
   $('#exp3').css('color', 'rgb(119, 118, 112)');
-  $('#exp4').css('color', 'rgb(119, 118, 112)');
-  $('#exp5').css('color', 'rgb(119, 118, 112)');
 }
