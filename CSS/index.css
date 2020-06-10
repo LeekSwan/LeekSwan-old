@@ -24,6 +24,7 @@ colors {
   /* Primary Colors (buttons, headlines, icons) */
   color: #3D9EC8;
   color: #29648A;
+  color: #232343;
   /* Secondary Colors (secondaries, subheadings, supporting content) */
   color: #E7E7E7;
   color: #9F9F9F;
@@ -37,7 +38,7 @@ colors {
   /*background-color: #25274D;*/
   background-color: #151528;
   position: relative;
-  height: 3200px;
+  height: 3700px;
   min-height: 100% !important;
 
 }
@@ -72,10 +73,17 @@ colors {
 
 .paragraphs {
   font-size: 20px;
-  color: #9F9F9F;
+  color: #E7E7E7;
 }
 
+.card-font {
+  font-size: 15px;
+  color: #E7E7E7;
+}
+.card-color {
 
+  background-color: #232343;
+}
 
 
 .tab-font {
@@ -230,6 +238,7 @@ colors {
 .fa {
   color: #3D9EC8;
 }
+
 
 @media screen and (max-width: 1000px) {
   .wrapper {

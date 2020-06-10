@@ -22,4 +22,28 @@ const projectData = [{
     description: "Interactive web app designed to create a suitable study space complete with user authentication, music player, to-do list, scoring system and quotes API. Also integrates Restful back-end server to store user data. ",
     link: "https://github.com/LeekSwan/Comp_Final_Project",
     tech: "Javascript, HTML, CSS, Node.Js, jQuery, AJAX.",
-}]
+}, {
+    id: 4,
+    title: "Study Hall",
+    backgroundColor: "#f39c11",
+    image: "https://image.freepik.com/free-vector/mountain-with-night-purple-sky-background_18047-35.jpg",
+    description: "Interactive web app designed to create a suitable study space complete with user authentication, music player, to-do list, scoring system and quotes API. Also integrates Restful back-end server to store user data. ",
+    link: "https://github.com/LeekSwan/Comp_Final_Project",
+    tech: "Javascript, HTML, CSS, Node.Js, jQuery, AJAX.",
+}, {
+    id: 5,
+    title: "Study Hall",
+    backgroundColor: "#f39c11",
+    image: "https://image.freepik.com/free-vector/mountain-with-night-purple-sky-background_18047-35.jpg",
+    description: "Interactive web app designed to create a suitable study space complete with user authentication, music player, to-do list, scoring system and quotes API. Also integrates Restful back-end server to store user data. ",
+    link: "https://github.com/LeekSwan/Comp_Final_Project",
+    tech: "Javascript, HTML, CSS, Node.Js, jQuery, AJAX.",
+}, {
+    id: 6,
+    title: "Study Hall",
+    backgroundColor: "#f39c11",
+    image: "https://image.freepik.com/free-vector/mountain-with-night-purple-sky-background_18047-35.jpg",
+    description: "Interactive web app designed to create a suitable study space complete with user authentication, music player, to-do list, scoring system and quotes API. Also integrates Restful back-end server to store user data. ",
+    link: "https://github.com/LeekSwan/Comp_Final_Project",
+    tech: "Javascript, HTML, CSS, Node.Js, jQuery, AJAX.",
+} ]
