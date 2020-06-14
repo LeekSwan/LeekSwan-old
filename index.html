@@ -9,8 +9,9 @@
     <meta charset="UFT-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/index.css" />
-    <link rel="stylesheet" href="CSS/buttons.css".css" />
+    <link rel="stylesheet" href="CSS/collapsednav.css".css" />
     <link rel="stylesheet" href="CSS/animations.css" />
+    <link rel="stylesheet" href="CSS/button2top.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="http://allfont.net/allfont.css?fonts=league-spartan" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
@@ -27,11 +28,16 @@
 
 
     <section class="wrapper ">
+        
         <!-- <div class="header"> -->
         <div class="container-fluid">
             
             <section class="navigation">
-                <div class="brand"><a href="#!">Logo</a></div>
+                <div class="brand">
+                    <a href="#!">
+                        <img class = "" src = "Assets/Logo.png">
+                    </a>
+                </div>
                 <div class="nav-container">
                     <nav>
                         <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
@@ -40,7 +46,7 @@
                                 <li><a href="#Experience" class="shadow-drop-2-br">Experience</a></li>
                                 <li><a href="#Projects">Projects</a></li>
                                 <li><a href="#contact">Contact Me!</a></li>
-                                <li><a href="Assets/Lixuan_Xia_Resume_Tech.pdf" download="Lixuan_Xia_Resume">Resume</a></li>
+                                <li><a href="Assets/Lixuan_Xia_Resume_Tech.pdf" download="Lixuan_Xia_Resume" style="color:#3D9EC8;">Resume</a></li>
                             </ul>
                     </nav>
                 </div>
@@ -89,13 +95,33 @@
                             minor in Business and Computer Science.
                         </p>
 
-                        <p class="paragraphs">I enjoy working on all sorts of projects from websites to application and everything in between.
+                        <p class="paragraphs">I enjoy working on all sorts of projects from websites to applications and everything in between.
                             My goal is to explore every tech stack under the sun and one day become a full stack developer.
                         </p>
 
                         <p class="paragraphs">
                             Listed bellow are a few technologies ive been working with recently:
                         </p>
+                        
+                        <div class = "row">
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <ul class="list">
+                                    <li>Python3</li>
+                                    <li>Javascript ES6+</li>
+                                    <li>Java</li>
+                                    <li>HTML/CSS</li>
+                                  </ul>
+                            </div>
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <ul class="list">
+                                    <li>React.Js</li>
+                                    <li>Node.js</li>
+                                    <li>C++</li>
+                                    <li>SQL</li>
+                                  </ul>
+                        </div>
+
+
                     </div>
 
 
@@ -173,10 +199,12 @@
 
                 <h6 class = "designed"> Designed and built by Lixuan Xia with a splash of bootstrap</h6>
             </div>
-             
+           
         </div>
         
-
+        <a class="back2Top" id="back2Top"  href="#">
+            <i class="fa fa-3x fa-angle-double-up" aria-hidden="true"></i>
+        </a>
 
         
     </section>
@@ -204,6 +232,7 @@
     <script src="Javascript/experiences.js" type="module"></script>
     <script src="Javascript/links.js" type="module"></script>
     <script src="Javascript/navbarbutton.js" type="module"></script>
+    <script src="Javascript/scroll2top.js" type="module"></script>
 
 
 
