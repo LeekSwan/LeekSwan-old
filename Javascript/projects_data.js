@@ -8,6 +8,14 @@ const projectData = [{
     tech: "Python, Scikit-Learn, Pandas, NumPy, Seaborn",
 }, {
     id: 2,
+    title: "Social Circle",
+    backgroundColor: "#f39c11",
+    image: "https://image.freepik.com/free-vector/mountain-with-night-purple-sky-background_18047-35.jpg",
+    description: "Web app able to calculate size of friend circles. Intended to estimate exposure through secondary contact and further especially in our current situation where we must be careful of social interactions.",
+    link: "https://github.com/LeekSwan/Social-Circle",
+    tech: "Javascript, HTML, CSS, Express.Js, React.Js, SQL",
+}, {
+    id: 3,
     title: "Solar Tracking System",
     backgroundColor: "#f39c11",
     image: "https://image.freepik.com/free-vector/mountain-with-night-purple-sky-background_18047-35.jpg",
@@ -15,21 +23,13 @@ const projectData = [{
     link: "https://github.com/LeekSwan/Solar-Tracking-System",
     tech: "C++, Arduino",
 }, {
-    id: 3,
+    id: 4,
     title: "Study Hall",
     backgroundColor: "#f39c11",
     image: "https://image.freepik.com/free-vector/mountain-with-night-purple-sky-background_18047-35.jpg",
     description: "Interactive web app designed to create a suitable study space complete with user authentication, music player, to-do list, scoring system and quotes API. Also integrates Restful back-end server to store user data. ",
     link: "https://github.com/LeekSwan/Comp_Final_Project",
     tech: "Javascript, HTML, CSS, Node.Js, jQuery, AJAX.",
-}, {
-    id: 4,
-    title: "Social Circle",
-    backgroundColor: "#f39c11",
-    image: "https://image.freepik.com/free-vector/mountain-with-night-purple-sky-background_18047-35.jpg",
-    description: "Web app able to calculate size of friend circles. Inteded to give an estimate of exposure to people through secondary contact and further.",
-    link: "",
-    tech: "Javascript, HTML, CSS, Express.Js, React.Js, SQL",
 }, {
     id: 5,
     title: "GitHub",

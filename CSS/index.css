@@ -23,6 +23,7 @@ body {
 colors {
   /* Primary Colors (buttons, headlines, icons) */
   color: #3D9EC8;
+  color: #8ac4dd;
   color: #29648A;
   color: #232343;
   /* Secondary Colors (secondaries, subheadings, supporting content) */
@@ -36,7 +37,7 @@ colors {
 
 .wrapper {
   /*background-color: #25274D;*/
-  background-color: #151528;
+  background-color: #151528;  
   position: relative;
   height: 3700px;
   min-height: 100% !important;
@@ -285,6 +286,8 @@ colors {
 }
 
 @media screen and (max-width: 625px) {
+  
+  
   .section-head {
     margin:auto;
     position: absolute;
@@ -303,8 +306,17 @@ colors {
 
 @media screen and (max-width: 570px) {
   .wrapper {
-    height: 4400px;
+    height: 5000px;
   }
 
 
 }
+
+@media only screen and (max-width: 400px) {
+  .wrapper {
+    height: 4000px;
+  } 
+
+}
+
+

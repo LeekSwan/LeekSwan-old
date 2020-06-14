@@ -1,3 +1,6 @@
+//controls nav bar when its in tablet mode
+
+
 (function($) { // Begin jQuery
     $(function() { // DOM ready
       // If a link has a dropdown, add sub menu toggle.

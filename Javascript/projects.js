@@ -2,23 +2,27 @@
 
 export const renderCard = function(project) {
     return `
-            <div class="card bg-transparent" >
-            <img class="card-img-top" src="${project.image}" alt="Card image cap" style="width: 100%;">
-                <div class="card-body card-color ">
-                    <h5 class="card-title paragraphs">${project.title}</h5>
-                    <p class="card-text card-font">${project.description}</p>
-                    <p class="card-text" style = "color:#9F9F9F; font-size:12px;">${project.tech}</p>           
+                <div class="card bg-transparent shadow-drop-2-br">
+                <a href="${project.link}" target="proj${project.id}" class="proj${project.id}">
+                <img class="card-img-top" src="${project.image}" alt="Card image cap" style="width: 100%;">
+                    <div class="card-body card-color ">
+                        <h5 class="card-title paragraphs">${project.title}</h5>
+                        <p class="card-text card-font">${project.description}</p>
+                        <p class="card-text" style = "color:#9F9F9F; font-size:12px;">${project.tech}</p>     
+                             
+                    </div>
+                    </a> 
                 </div>
-            </div>
+ 
            `    
 };
 
 export const gitCard = function(project) {
     return `
         <div class="card border-0" style="background-color:#151528">
-            <div class="card-body horizontal-center vertical-center">
+            <div class="card-body  horizontal-center vertical-center">
                 <h5 class="paragraphs"></h5>
-                <a href="#" class="btn btn-primary">Check out my github!</a>     
+                <a href="https://github.com/LeekSwan" target="_icon1" class="btn btn-primary icon1">Check out my github!</a>     
             </div>
         </div>
     `
