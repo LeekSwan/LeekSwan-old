@@ -1,6 +1,6 @@
 export const renderSite = function(experience) {
     const $root = $('#tabs');
-    $('#exp1').css('color', 'white');
+    $('#exp1').css('color', '#FC6230');
     getExp1(experience);
 
 
@@ -8,19 +8,19 @@ export const renderSite = function(experience) {
         e.preventDefault(); 
         getExp1(experience); 
         revertColors();
-        $('#exp1').css('color', 'white');
+        $('#exp1').css('color', '#FC6230');
     });
     $(document).on('click', '#exp2',  function(e){
         e.preventDefault(); 
         getExp2(experience); 
         revertColors();
-        $('#exp2').css('color', 'white');
+        $('#exp2').css('color', '#FC6230');
     });
     $(document).on('click', '#exp3',  function(e){
         e.preventDefault(); 
         getExp3(experience); 
         revertColors();
-        $('#exp3').css('color', 'white');
+        $('#exp3').css('color', '#FC6230');
     });
 
 }

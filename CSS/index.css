@@ -93,12 +93,12 @@ colors {
 
 .tab-font {
   font-size:15px;
-  color:rgb(110, 97, 97)
+  color:rgb(110, 97, 97);
 }
 
 .list {
   list-style-type: square;
-  color: #FC6230
+  color: #FC6230;
 }
 
 
@@ -146,9 +146,6 @@ colors {
   transform: translateY(20%);
   width: 90%;
   height: auto;
-
-
-
 }
 
 .section-head {
@@ -164,14 +161,15 @@ colors {
   height: 90%;
   /* border: 1px solid aqua; */
 }
-
+*:focus {
+  outline: 0 !important;
+  color: #FC6230;
+}
 .tab {
   float: right;
-  margin-left: 1000px;
+  
   background:none;
   outline: none;
-  /* border: 1px solid cadetblue; */
-
 }
 
 .tab button {
@@ -189,9 +187,6 @@ colors {
   font-size: 17px;
 }
 
-.tab:focus {
-  color: #FC6230;
-}
 
 
 .left-container {
@@ -227,8 +222,8 @@ colors {
 
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 20%;
+  margin-top: 10%;
 }
 
 .footer-container {
@@ -270,6 +265,11 @@ colors {
   border-radius: 10px; /* Rounded corners */
 }
 
+.back2Top:hover {
+  transition: 0.3s;
+  background-color: #ff8138;
+}
+
 
 .list-horizontal li {
   display:inline-block;
@@ -286,6 +286,14 @@ colors {
 @media screen and (max-width: 1000px) {
   .wrapper {
     height: 3500px;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+
+    margin: auto;
   }
 }
 
@@ -353,7 +361,7 @@ colors {
   .wrapper {
     height: 5000px;
   }
-
+  
 
 }
 
