@@ -24,6 +24,7 @@ body {
 
 colors {
   /* Primary Colors (buttons, headlines, icons) */
+  color: #FC6230;
   color: #3D9EC8;
   color: #8ac4dd;
   color: #29648A;
@@ -97,7 +98,7 @@ colors {
 
 .list {
   list-style-type: square;
-  color: #3D9EC8
+  color: #FC6230
 }
 
 
@@ -188,6 +189,10 @@ colors {
   font-size: 17px;
 }
 
+.tab:focus {
+  color: #FC6230;
+}
+
 
 .left-container {
   height: 50%;
@@ -245,7 +250,11 @@ colors {
 
 
 .fa-4x {
-  color: #3D9EC8;
+  color: #FC6230;
+}
+
+.fa-2x {
+  color:#FC6230;
 }
 
 .back2Top {
@@ -256,7 +265,7 @@ colors {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #29648A; /* Set a background color */
+  background-color: #fc633098; /* Set a background color */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
 }
@@ -268,7 +277,7 @@ colors {
 }
 .list-horizontal li:before {
 	content: '\00a0\2022\00a0\00a0';
-	color:#3D9EC8;
+	color:#FC6230;
 	font-size:15px;
 }
 
