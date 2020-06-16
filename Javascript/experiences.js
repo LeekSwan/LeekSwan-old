@@ -37,6 +37,7 @@ function getExp1(experience) {
     screen.innerHTML = `
         <div id = "tabs">
             <h5 class="card-title paragraphs">${obj.title}</h5>
+            <h6 class="card-text card-font">${obj.date}</h6>
             <p class="card-text card-font">${obj.description}</p>
   
         </div>
@@ -51,6 +52,7 @@ function getExp2(experience) {
     screen.innerHTML = `
         <div id = "tabs">
         <h5 class="card-title paragraphs">${obj.title}</h5>
+        <h6 class="card-text card-font">${obj.date}</h6>
         <p class="card-text card-font">${obj.description}</p>
   
         </div>
@@ -65,6 +67,7 @@ function getExp3(experience) {
     screen.innerHTML = `
         <div id = "tabs">
         <h5 class="card-title paragraphs">${obj.title}</h5>
+        <h6 class="card-text card-font">${obj.date}</h6>
         <p class="card-text card-font">${obj.description}</p>
   
         </div>

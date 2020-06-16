@@ -76,4 +76,25 @@
   }
 }
 
-  
+.text-shadow-drop-center:hover {
+	-webkit-animation: text-shadow-drop-center 0.6s both;
+	        animation: text-shadow-drop-center 0.6s both;
+}
+
+@-webkit-keyframes text-shadow-drop-center {
+0% {
+        text-shadow: 0 0 0 #FC6230;
+}
+100% {
+        text-shadow: 0 0 18px #FC6230;
+}
+}
+@keyframes text-shadow-drop-center {
+0% {
+        text-shadow: 0 0 0 #FC6230;
+}
+100% {
+        text-shadow: 0 0 18px #FC6230;
+}
+}
+      
