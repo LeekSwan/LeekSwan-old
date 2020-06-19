@@ -1,5 +1,5 @@
 /* * { border: 1px solid red; } */
-
+*{font-family: 'Roboto Slab';}
 html {
   position: relative;
   height: auto;
@@ -15,9 +15,6 @@ body {
   min-height: 100% !important;
   
 }
-
-*{font-family: 'Roboto Slab';}
-
 
 colors {
   /* Primary Colors (buttons, headlines, icons) */
@@ -36,12 +33,11 @@ colors {
 
 
 .wrapper {
-  /*background-color: #25274D;*/
   background-color: #151528;
   position: relative;
   height: 3700px;
   min-height: 100% !important;
-
+  overflow: hidden;
 
 }
 
@@ -100,7 +96,6 @@ colors {
 
 
 .container {
-  /*background-color: #464866;*/
   width: 100%;
   height: 100vh;
 
@@ -133,8 +128,6 @@ colors {
 
   width: 100%;
   height: 95%;
-  /* border: 1px solid #3D9EC8; */
-
 }
 
 .project-container {
@@ -156,7 +149,6 @@ colors {
 
   width: 80%;
   height: 90%;
-  /* border: 1px solid aqua; */
 }
 *:focus {
   outline: 0 !important;
@@ -183,13 +175,12 @@ colors {
   transition: 0.3s;
   font-size: 17px;
 }
-
-
 .center-container {
-  height: 50%;
-  margin-top: 10%;
-  width: 80%;
-  /* border: 1px solid #3D9EC8; */
+  height: 10%;
+  margin-top: 7%;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 
@@ -206,10 +197,10 @@ colors {
 
 .footer-container {
   width: 100%;
+  right: 1px;
   position: absolute;
   bottom: 0%;
   background-color: #232343;
-  /* border: 1px solid #3D9EC8; */
 }
 
 
@@ -330,7 +321,6 @@ colors {
 
     width: 80%;
     height: 90%;
-    /* border: 1px solid aqua; */
   }
 
 }
