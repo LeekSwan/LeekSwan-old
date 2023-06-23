@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/LeekSwan/Resume#readme",
   "dependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.29.3"
   },
   "devDependencies": {}
 }
